@@ -3,7 +3,7 @@ source activate qiime2-2019.1
 
 ### Importing data (Prepare a folder containing all .gz files)
 
-##Casava 1.8 paired-end demultiplexed fastq : he sample identifier, barcode sequence or a barcode identifier, lane number, direction of the read (i.e. R1 or R2), and set number were imported.
+## Casava 1.8 paired-end demultiplexed fastq : he sample identifier, barcode sequence or a barcode identifier, lane number, direction of the read (i.e. R1 or R2), and set number were imported.
 
 qiime tools import \
   --type 'SampleData[PairedEndSequencesWithQuality]' \
