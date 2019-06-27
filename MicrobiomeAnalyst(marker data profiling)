@@ -1,0 +1,10 @@
+### Using the table.qza, taxonomy.qzv file from QIIME2 command line
+
+
+## OTU table(Export from QIIME 2 command line)
+
+qiime tools export --input-path table.qza --output-path exported-feature-table
+biom convert -i feature-table.biom -o table.tsv --to-tsv
+
+### Metadata file (Modified from editedmeta.tsv)
+## Taxonomy table > Access to the view.qiime > Upload taxonomy.qzv file > Download metadata TSV file and modified it.
